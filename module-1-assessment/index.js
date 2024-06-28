@@ -9,7 +9,7 @@ Create a simple calculator in Javascript.
 
 // Function to validate the input data
 function validateData(val1, val2, operation) {
-    // Check whether the values type in number
+    // Check whether the values type is number or not
     if (typeof val1 !== "number" || typeof val2 !== "number") {
         console.log("Enter valid number");
         return false;
@@ -34,22 +34,22 @@ function calculator(num1, num2, operation, flag) {
 
     switch (operation) {
         case '+':
-            result = num1+num2;
+            result = num1 + num2;
             break;
         case '-':
-            result = num1-num2;
+            result = num1 - num2;
             break;
         case '*':
-            result = num1*num2;
+            result = num1 * num2;
             break;
         case "/":
-            result = num1/num2;
+            result = num1 / num2;
             break;
         default:
             console.log("unexpected error");
             break;
     }
-    console.log("Result of " + num1 + " " + operation + " " + num2 + " = " +result);
+    console.log("Result of " + num1 + " " + operation + " " + num2 + " = " + result);
 }
 
 // Mock data
