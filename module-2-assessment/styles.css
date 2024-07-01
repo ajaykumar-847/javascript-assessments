@@ -1,0 +1,68 @@
+body {
+    background-color: gray;
+}
+
+.container {
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid black;  
+    border-radius: 10px;
+}
+
+.book-list {
+    margin-top: 20px;
+}
+
+/* .book-list-1 {
+    display: flex;
+    justify-content: space-between;
+    border-style: solid;
+    padding: 0.5rem;
+
+} */
+
+.book-form, .borrow-return-form {
+    margin-top: 30px;
+    border-bottom: 2px solid black;
+    padding-bottom: 1rem;
+}
+
+.book-form label, .borrow-return-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.book-form input, .borrow-return-form input, .book-form select, .borrow-return-form select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.error-message {
+    color: #f00;
+    margin-top: 10px;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+#image {
+    width: 40px;
+    height: 40px;
+}
