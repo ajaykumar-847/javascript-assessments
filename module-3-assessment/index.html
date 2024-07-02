@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="heading">Weather App</h1>
+        <div id="error"></div>
+        <form id="form">
+            <div id="input-div">
+                <label for="city-name">Enter a city name :</label>
+                <input type="text" id="city-name" name="city-name" onclick="changeFieldColor()" onchange="capitalizeInput()" required>
+            </div>
+            <button onmouseover="bigButton(this)" onmouseout="normalButton(this)" type="submit" id="submit-button">Search</button>
+        </form>
+        <div id="details">
+
+        </div>
+    </div>
+    <script src="index.js" defer></script>
+</body>
+
+</html>
